@@ -3,16 +3,33 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
+import { HeroComponent } from './hero/hero.component';
+import { AboutComponent } from './about/about.component';
+import { SkillComponent } from './skill/skill.component';
+import { ResumeComponent } from './resume/resume.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    HeroComponent,
+    AboutComponent,
+    SkillComponent,
+    ResumeComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [provideHttpClient(
+    withFetch()
+  )],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

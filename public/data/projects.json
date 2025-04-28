@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Portfolio - Angular",
+    "description": "Codigo fuente de este portfolio.",
+    "isGitHubButton": true,
+    "urlGitHub": "https://github.com/jorge00ESP/portfolio",
+    "isUrlButton": false,
+    "urlWebSite": ""
+  },
+  {
+    "title": "Pets - Springboot (2024)",
+    "description": "Mi primer proyecto en Java Springboot (monolito) que fue para el trabajo de fin de grado (DAW) para una aplicacion sobre un 'foro' de Mascotas.",
+    "isGitHubButton": true,
+    "urlGitHub": "https://github.com/jorge00ESP/pets-backend-springboot",
+    "isUrlButton": false,
+    "urlWebSite": ""
+  },
+  {
+    "title": "API Erp - Laravel (2021)",
+    "description": "Proyecto en Laravel para una ERP para el trabajo de fin de grado en DAM.",
+    "isGitHubButton": true,
+    "urlGitHub": "https://github.com/jorge00ESP/tfg-laravel-erp",
+    "isUrlButton": false,
+    "urlWebSite": ""
+  }
+]
