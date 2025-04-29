@@ -1,5 +1,9 @@
 @use '../../assets/variables.scss' as var;
 
+.section-title {
+  padding-bottom: 0px;
+}
+
 .resume-title {
   color: var.$h2-color;
   font-size: 26px;
@@ -13,6 +17,10 @@
   margin-top: -2px;
   border-left: 2px solid var.$accent-color;
   position: relative;
+
+  p {
+    margin-bottom: 1rem;
+  }
 }
 
 .resume-item h4 {

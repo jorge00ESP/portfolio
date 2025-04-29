@@ -1,5 +1,9 @@
 @use '../../assets/variables.scss' as var;
 
+.section-title {
+  padding-bottom: 0px !important;
+}
+
 .project {
   border-radius: 9px;
   border-color: rgba(88,80,80,0.81);
